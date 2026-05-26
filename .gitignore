@@ -1,7 +1,23 @@
-# Obsidian
-.obsidian/
-.trash/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # OS
-Thumbs.db
 .DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
